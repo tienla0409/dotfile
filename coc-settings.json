@@ -1,0 +1,28 @@
+{
+  "suggest.maxCompleteItemCount": 20,
+  "snippets.extends": {
+    "cpp": [
+      "c"
+    ],
+    "javascriptreact": [
+      "javascript"
+    ],
+    "typescript": [
+      "javascript, javascriptreact"
+    ],
+    "typescriptreact": [
+      "typescript"
+    ]
+  },
+  "javascript.validate.enable": true,
+  "javascript.suggestionActions.enabled": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "cpp",
+    "vim"
+  ],
+  "eslint.autoFixOnSave": true,
+  "vetur.ignoreProjectWarning": true,
+  "vetur.trace.server": "verbose",
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd"
+}
